@@ -3,7 +3,6 @@ import string, random
 
 app = Flask(__name__)
 
-# In-memory storage
 url_store = {}
 
 def generate_short():
